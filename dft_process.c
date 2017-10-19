@@ -328,8 +328,12 @@ void fft_square_bw_v2(uint8_t low_fre,uint8_t high_fre,int32_t data)
         if (alg_data->ind > (FFT_WIN_SIZE-1)) alg_data->ind = 0;
         if (alg_data->start_ind > (FFT_WIN_SIZE-1)) alg_data->start_ind = 0;
     } 
-     
-    alg_data->data_cnt ++;
+      alg_data->data_cnt ++;
     
 }
+
+
+
+
+
 
